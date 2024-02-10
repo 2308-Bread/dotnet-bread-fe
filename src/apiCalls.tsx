@@ -2,7 +2,7 @@ import { ApiResponse } from './apiTypes';
 
 export const fetchBreadsForCountry = (countryName: string): Promise<ApiResponse> => {
     console.log('Fetching breads for country:', countryName);
-    return fetch(`http://belongeaboulangerie.azurewebsites.net/Country/GetCountryAndBread/${countryName}`)
+    return fetch(`https://belongeaboulangerie.azurewebsites.net/Country/GetCountryAndBread/${countryName}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
