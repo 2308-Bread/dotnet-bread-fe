@@ -15,6 +15,8 @@ const BreadList = () => {
     if (countryName) {
       fetchBreadsForCountry(countryName)
         .then((data: ApiResponse) => {
+          console.log(data, "this is the data")
+          console.log("current countryName", countryName)
           setCountry(data.country.data);
           setBreads(data.breads.data);
         })
