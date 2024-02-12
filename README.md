@@ -1,7 +1,7 @@
 <div align="center">
 <h1> Belongea's Boulangerie </h1>
 
-[Visit the bakery](https://dotnet-laboulangerie.vercel.app/breads/France)
+[Visit the bakery](https://dotnet-laboulangerie.vercel.app/)
 
 ## :computer: Tech Stack <br>
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
